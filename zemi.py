@@ -75,7 +75,7 @@ if __name__ == "__main__":
     login_flg = do_login(driver)
 
 if login_flg is True:  #62
-   url = 'https://www.instagram.com/explore/tags/cat/'
+   url = 'https://www.instagram.com/explore/tags/cat/' #catは好きなタグに変更してよい
    driver.get(url)
    driver.set_window_size(1600, 1200)
    driver.save_screenshot('screenshot.png')
